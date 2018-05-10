@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="80dp" />
+<EditText
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:id="@+id/count"
+    android:hint="@string/count_hint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:hint="@string/password_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_help"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/loginn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="我要试用"
+              android:textColor="@color/titleBlue"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

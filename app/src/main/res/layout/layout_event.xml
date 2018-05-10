@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:tl="http://schemas.android.com/apk/res-auto">
+<!--<com.yiscn.projectmanage.widget.SegmentTabLayout-->
+    <!--android:id="@+id/tl_3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="36dp"-->
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:paddingLeft="1dp"-->
+    <!--android:paddingRight="1dp"-->
+    <!--tl:tl_bar_color="#ffffff"-->
+    <!--tl:tl_indicator_color="#2C97DE"-->
+    <!--tl:tl_indicator_corner_radius="3dp"-->
+    <!--tl:tl_indicator_anim_enable="true"-->
+    <!--tl:tl_textBold="SELECT"/>-->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/vp_2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="84dp"/>-->
+
+    <com.yiscn.projectmanage.widget.SegmentTabLayout
+        android:id="@+id/tl_3"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        tl:tl_bar_color="#ffffff"
+        tl:tl_indicator_color="#2C97DE"
+        tl:tl_indicator_corner_radius="3dp"
+
+
+        tl:tl_indicator_anim_enable="true"
+
+        tl:tl_textBold="SELECT"/>
+
+    <android.support.v4.view.ViewPager
+        android:background="#f00"
+        android:id="@+id/vp_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>

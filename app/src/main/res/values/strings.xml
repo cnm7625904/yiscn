@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">projectmanage</string>
+    <string name="count_hint">请输入账号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="loginn">登录</string>
+    <string name="title_sysmsg">系统消息</string>
+    <string name="serch_list">查询列表</string>
+    <string name="title_personedit">头像编辑</string>
+    <string name="title_mydynamic">我的动态</string>
+    <string name="title_myproject">我参与的项目</string>
+    <string name="title_mydelayrequest">我的延期申请</string>
+    <string name="title_modify">我的延期申请</string>
+    <!--<string name="title_modify">我的延期申请</string>-->
+</resources>
